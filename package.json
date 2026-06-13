@@ -1,0 +1,16 @@
+{
+  "name": "messenger-bot",
+  "version": "1.0.0",
+  "description": "Telegram broadcast bot - forwards any message to all groups",
+  "main": "api/webhook.js",
+  "scripts": {
+    "setup-webhook": "node scripts/set-webhook.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "@upstash/redis": "^1.34.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
